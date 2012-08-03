@@ -15,7 +15,7 @@ Apply the filter using Liquid's filter syntax, `|`, to any string that you
 want to process.
 
     <h1>{{ page.title | widont }}</h1>
-    <div class="entry-content">{{ page.content | widont }}</div>
+    <div class="entry-content">{{ content | widont }}</div>
 
 ## Special Thanks
 
